@@ -7,6 +7,6 @@ redirect_from:
   - /research
 ---
 
-#### [Link text](https://example.com)
+# [Link text](https://example.com)
 
 Lorem ipsum.
