@@ -1,7 +1,10 @@
 ---
+layout: archive
 title: "Research"
-sitemap: false
-permalink: /research.html
+permalink: /research/
+author_profile: true
+redirect_from:
+  - /research
 ---
 
 My research will go here.
