@@ -7,6 +7,6 @@ redirect_from:
   - /research
 ---
 
-# [Link text](https://example.com)
+# [Determining a graph from its reconfiguration graph](https://arxiv.org/abs/2504.19783)
 
-Lorem ipsum.
+Submitted 28 April 2025
