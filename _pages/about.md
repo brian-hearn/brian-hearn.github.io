@@ -7,7 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-About me.
+I am a Mathematics PhD Student at the London School of Economics and Political Science, researching Combinatorics.
+
 ======
 Lorem ipsum
 - One
