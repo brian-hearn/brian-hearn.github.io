@@ -9,7 +9,7 @@ redirect_from:
 
 I am a Mathematics PhD Student at the London School of Economics and Political Science, researching Combinatorics.
 
-======
+<!-- ======
 Lorem ipsum
 - One
 - Two
@@ -31,4 +31,4 @@ Even more more text.
 
 A new section.
 ------
-Some concluding text.
+Some concluding text. -->
