@@ -14,7 +14,6 @@ layout: default
   {% endunless %}
 {% endif %}
 
-<template>
 <div id="main" role="main">
   {% include sidebar.html %}
 
@@ -37,12 +36,6 @@ layout: default
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
         {% endif %}
         {% if page.talk_type %}<p>{{page.talk_type}} at {{ page.venue }},  {{page.location}} {% endif %}
-        <!-- <p>
-          {% if page.type %}
-            {{ page.type }} at
-          {% endif %}
-          {{ page.venue }}, {{ page.location }}
-        </p> -->
 
         </header>
       {% endunless %}
@@ -83,4 +76,3 @@ layout: default
     </div>
   {% endif %}
 </div>
-</template>
