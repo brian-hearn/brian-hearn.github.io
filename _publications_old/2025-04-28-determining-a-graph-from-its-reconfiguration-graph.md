@@ -14,18 +14,11 @@ paperurl: 'https://arxiv.org/abs/2504.19783'
 # bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 authors:
-  - name: Gaétan Berthe
-    url: https://gberthe.fr/
-  - name: Caroline Brosse
-    url: https://www-sop.inria.fr/members/Caroline.Brosse/index-en.html
-  - name: Brian Hearn
-    url: https://brian-hearn.github.io/
-  - name: Jan van den Heuvel
-    url: https://www.lse.ac.uk/people/jan-van-den-heuvel
-  - name: Pierre Hoppenot
-    url: https://pagesperso.g-scop.grenoble-inp.fr/pierrehoppenot/
-  - name: Théo Pierron
-    url: https://perso.liris.cnrs.fr/tpierron/
+  - name: Alice Smith
+    url: https://alice.example.com
+  - name: Bob Jones
+  - name: Carol Lee
+    url: https://carol.example.com
 
 ---
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
