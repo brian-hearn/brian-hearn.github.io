@@ -1,10 +1,10 @@
 ---
 layout: archive
 title: "Research"
-permalink: /research/
+permalink: /research_old/
 author_profile: true
 redirect_from:
-  - /research
+  - /research_old
 ---
 
 ### [Determining a graph from its reconfiguration graph](https://arxiv.org/abs/2504.19783)
