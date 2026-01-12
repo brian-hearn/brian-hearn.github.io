@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 # category: conferences
 permalink: /publication/2025-04-28-determining-a-graph-from-its-reconfiguration-graph
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+# excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 # excerpt: 'This paper is about fixing template issue #693.'
 date: 2025-04-28
 # venue: 'Journal 1'
