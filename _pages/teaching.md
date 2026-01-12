@@ -9,18 +9,19 @@ redirect_from:
 
 ## 2025-2026
 
-Autumn Term, LSE:
+**London School of Economics**
 
+Autumn Term:
 - [MA108 Methods in Calculus and Linear Algebra](https://www.lse.ac.uk/resources/calendar2025-2026/courseGuides/MA/2025_MA108.htm).
 
-Winter Term, LSE:
-
+Winter Term:
 - [MA222 Further Mathematical Methods (Linear Algebra)](https://www.lse.ac.uk/resources/calendar2025-2026/courseGuides/MA/2025_MA222.htm).
 
 ## 2024-2025
 
-Autumn/Winter Term, LSE:
+**London School of Economics**
 
+Autumn + Winter Term:
 - [MA103 Introduction to Abstract Mathematics](https://www.lse.ac.uk/resources/calendar2024-2025/courseGuides/MA/2024_MA103.htm).
 
 
