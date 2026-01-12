@@ -9,7 +9,7 @@ redirect_from:
 
 I am a Mathematics PhD Student at the London School of Economics and Political Science, researching Combinatorics.
 
-13:56.
+For enquiries, feel free to get in touch at <a href="mailto:b.hearn@lse.ac.uk">b.hearn@lse.ac.uk</a>.
 
 <!-- ======
 Lorem ipsum
