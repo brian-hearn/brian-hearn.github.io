@@ -65,6 +65,7 @@
 
 .archive__item-excerpt {
   margin-top: 0;
+  margin-bottom: 0;
   font-size: $type-size-6;
 
   & + p {
@@ -127,6 +128,7 @@
 
   .archive__item-title {
     margin-top: 0.5em;
+    margin-bottom: 0em;
     font-size: $type-size-5;
   }
 
