@@ -46,16 +46,15 @@
   }
 }
 
-/* Remove underline from all links globally */
-a {
-  text-decoration: none;
-}
+// /* Remove underline from all links globally */
+// a {
+//   text-decoration: none;
+// }
 
-/* Only underline when the title itself is a link AND hovered */
-a.archive__item-title:hover {
-  text-decoration: underline;
-}
-
+// /* Only underline when the title itself is a link AND hovered */
+// a.archive__item-title:hover {
+//   text-decoration: underline;
+// }
 
 .archive__subtitle {
   margin: 1.414em 0 0;
