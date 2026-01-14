@@ -9,13 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+## Education
 ======
 * PhD Mathematics, London School of Economics and Political Science (2024-Present)
 * MSc Mathematical Sciences, University of Oxford (2022-2023)
 * BA (Hons) Mathematics, Trinity College Dublin (2016-2020)
 
-Work Experience
+## Work Experience
 ======
 * London School of Economics and Political Science (2024-Present)
   * Teaching Assistant
