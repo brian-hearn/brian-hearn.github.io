@@ -31,7 +31,7 @@
     text-decoration: none;
 
     &:hover {
-      text-decoration: none;
+      text-decoration: underline;
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
@@ -39,11 +39,11 @@
     }
   }
 
-  /* Re-enable underline ONLY for linked titles on hover */
-  .archive__item-title a:hover,
-  a.archive__item-title:hover {
-    text-decoration: underline;
-  }
+  // /* Re-enable underline ONLY for linked titles on hover */
+  // .archive__item-title a:hover,
+  // a.archive__item-title:hover {
+  //   text-decoration: underline;
+  // }
 }
 
 // /* Remove underline from all links globally */
