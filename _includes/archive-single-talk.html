@@ -50,7 +50,7 @@
         <a href="{{ base_path }}{{ post.slides }}" target="_blank">Slides</a>
       </p>
     {% endif %} -->
-    {% if post.slides or post.website %}
+    <!-- {% if post.slides or post.website %}
       <p class="archive__item-excerpt" itemprop="description">
         {% if post.slides %}
           <a href="{{ base_path }}{{ post.slides }}" target="_blank">Slides</a>
@@ -63,6 +63,22 @@
         {% if post.website %}
           <a href="{{ post.website }}" target="_blank">Website</a>
         {% endif %}
+      </p>
+    {% endif %} -->
+    {% if post.links %}
+      <p class="archive__item-excerpt" itemprop="description">
+        {% for link in post.links %}
+          {% if forloop.first == false %}
+            &nbsp;│&nbsp;
+          {% endif %}
+
+          <a
+            href="{% if link.base %}{{ base_path }}{% endif %}{{ link.url }}"
+            target="_blank"
+          >
+            {{ link.title }}
+          </a>
+        {% endfor %}
       </p>
     {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
