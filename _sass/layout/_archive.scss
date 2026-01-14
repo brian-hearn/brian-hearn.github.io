@@ -92,10 +92,26 @@
     box-shadow: 0 0 10px rgba(#000, 0.25);
   }
 
-  .archive__item-title {
-    text-decoration: underline;
-  }
+  // .archive__item-title {
+  //   text-decoration: underline;
+  // }
 }
+
+/* Remove underline from all links globally */
+a {
+  text-decoration: none;
+}
+
+/* Archive item title – no underline by default */
+.archive__item-title {
+  text-decoration: none;
+}
+
+/* Only underline when the title itself is a link AND hovered */
+a.archive__item-title:hover {
+  text-decoration: underline;
+}
+
 
 
 /*
