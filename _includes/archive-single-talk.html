@@ -45,9 +45,24 @@
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
     {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%d %B %Y' }}</p>{% endif %}
-    {% if post.slides %}
+    <!-- {% if post.slides %}
       <p class="archive__item-excerpt" itemprop="description">
         <a href="{{ base_path }}{{ post.slides }}" target="_blank">Slides</a>
+      </p>
+    {% endif %} -->
+    {% if post.slides or post.website %}
+      <p class="archive__item-excerpt" itemprop="description">
+        {% if post.slides %}
+          <a href="{{ base_path }}{{ post.slides }}" target="_blank">Slides</a>
+        {% endif %}
+
+        {% if post.slides and post.website %}
+          &nbsp;│&nbsp;
+        {% endif %}
+
+        {% if post.website %}
+          <a href="{{ post.website }}" target="_blank">Website</a>
+        {% endif %}
       </p>
     {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
