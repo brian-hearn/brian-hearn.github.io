@@ -14,18 +14,48 @@
     @include prefix(0.5 of 12);
   }
 
+  // a {
+  //   text-decoration: underline;
+
+  //   &:hover {
+  //     text-decoration: underline;
+
+  //     img {
+  //       box-shadow: 0 0 10px rgba(#000, 0.25);
+  //     }
+  //   }
+  // }
+
+    /* Remove underline from all links in archive */
   a {
-    text-decoration: underline;
+    text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
       }
     }
   }
+
+  /* Re-enable underline ONLY for linked titles on hover */
+  .archive__item-title a:hover,
+  a.archive__item-title:hover {
+    text-decoration: underline;
+  }
 }
+
+/* Remove underline from all links globally */
+a {
+  text-decoration: none;
+}
+
+/* Only underline when the title itself is a link AND hovered */
+a.archive__item-title:hover {
+  text-decoration: underline;
+}
+
 
 .archive__subtitle {
   margin: 1.414em 0 0;
@@ -97,20 +127,11 @@
   // }
 }
 
-/* Remove underline from all links globally */
-a {
-  text-decoration: none;
-}
-
 /* Archive item title – no underline by default */
 .archive__item-title {
   text-decoration: none;
 }
 
-/* Only underline when the title itself is a link AND hovered */
-a.archive__item-title:hover {
-  text-decoration: underline;
-}
 
 
 
