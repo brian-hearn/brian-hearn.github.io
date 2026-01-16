@@ -69,6 +69,9 @@
 }
 
 .archive__item-title {
+  // Test:
+  margin-top: 0.25em; 
+  
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
   font-size: $type-size-3;
@@ -88,7 +91,8 @@
 .page__content {
 
   .archive__item-title {
-    margin-top: 0.25em;
+    // margin-top: 0.25em;
+    margin-top: 0;
     border-bottom: none;
   }
 }
