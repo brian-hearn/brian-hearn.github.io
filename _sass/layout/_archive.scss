@@ -144,9 +144,8 @@
    ========================================================================== */
 
 .list__item {
-
   // test:
-  margin-bottom: 0.75em;
+  // margin-bottom: 0.75em;
 
   @include breakpoint($medium) {
     padding-right: $right-sidebar-width-narrow;
@@ -178,7 +177,7 @@
   }
 
   .archive__item-title {
-    margin-top: 0.25em;
+    margin-top: 0.5em;
     margin-bottom: 0.25em;
     font-size: $type-size-4;
   }
