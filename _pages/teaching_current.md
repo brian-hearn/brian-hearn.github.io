@@ -1,10 +1,10 @@
 ---
 layout: archive
-title: "Teaching"
-permalink: /teaching/
+title: "Teaching_Current"
+permalink: /teaching_current/
 author_profile: true
 redirect_from:
-  - /teaching
+  - /teaching_current
 ---
 
 ## 2025-2026
