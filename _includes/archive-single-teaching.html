@@ -1,0 +1,36 @@
+{% include base_path %}
+
+<div class="teaching__item">
+
+  <article class="archive__item">
+
+    {% if page.year %}
+      <h2 class="archive__item-title">
+        {{ page.year }} — {{ page.employer }}
+      </h2>
+    {% endif %}
+
+    {% if page.terms %}
+      {% for term in page.terms %}
+        <h3 class="archive__item-term">
+          {{ term.name }}
+        </h3>
+
+        <ul class="archive__item-courses">
+          {% for course in term.courses %}
+            <li>
+              {% if course.link %}
+                <a href="{{ course.link }}">{{ course.name }}</a>
+              {% else %}
+                {{ course.name }}
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+
+      {% endfor %}
+    {% endif %}
+
+  </article>
+
+</div>
