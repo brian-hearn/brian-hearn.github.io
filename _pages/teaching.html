@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-{% for page in site.teaching_years reversed %}
+<!-- <p>site.teaching size: {{ site.teaching | size }}</p> -->
+
+{% for page in site.teaching reversed %}
   {% include archive-single-teaching.html %}
 {% endfor %}

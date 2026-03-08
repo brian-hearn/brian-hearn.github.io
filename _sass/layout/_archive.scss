@@ -2,6 +2,7 @@
    ARCHIVE
    ========================================================================== */
 
+   
 .archive {
   margin-bottom: 1em;
 
@@ -87,6 +88,13 @@
     font-size: $type-size-5;
   }
 
+.archive__item-normaltext {
+    margin-top: 0em;
+    margin-bottom: 0.25em;
+    font-size: $type-size-5;
+    font-weight: normal;
+  }
+
 /* remove border*/
 .page__content {
 
@@ -107,6 +115,7 @@
   margin-top: 0;
   margin-bottom: 0;
   font-size: $type-size-6;
+  // font-weight: normal;
 
   & + p {
     text-indent: 0;
@@ -183,6 +192,12 @@
   }
 
   .archive__item-subtitle {
+    margin-top: 0em;
+    margin-bottom: 0.25em;
+    font-size: $type-size-5;
+  }
+
+  .archive__item-text {
     margin-top: 0em;
     margin-bottom: 0.25em;
     font-size: $type-size-5;

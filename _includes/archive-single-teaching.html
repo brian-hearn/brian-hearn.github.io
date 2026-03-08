@@ -15,15 +15,28 @@
     {% endif %}
     {% if page.year %}
       <h2 class="archive__item-title">
-        {{ page.year }} — {{ page.employer }}
+        {{ page.year }}
+      </h2>
+    {% endif %}
+
+    <!-- {% if page.employer %}
+      <h2 class="archive__item-subtitle">
+        {{ page.employer }}
+      </h2>
+    {% endif %} -->
+
+    {% if page.employer %}
+      <h2 class="archive__item-normaltext">
+        {{ page.employer }} ({{ page.role }})
       </h2>
     {% endif %}
 
     {% if page.terms %}
+      <ul>
       {% for term in page.terms %}
-        <h3 class="archive__item-excerpt">
+        <li class="archive__item-normaltext" itemprop="headline">
           {{ term.name }}
-        </h3>
+        </li>
 
         <ul class="archive__item-excerpt">
           {% for course in term.courses %}
@@ -36,8 +49,8 @@
             </li>
           {% endfor %}
         </ul>
-
       {% endfor %}
+      </ul>
     {% endif %}
   </article>
 </div>
