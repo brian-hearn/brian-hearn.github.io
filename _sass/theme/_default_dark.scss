@@ -27,7 +27,7 @@ $warning-color              : #f89406;
 /* Other basic settings for the template */
 $border-radius              : 4px;
 $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
-$global-transition          : all 0.2s ease-in-out;
+$global-transition          : all 0.0s ease-in-out; /* Default 0.2s */
 $masthead-height            : 70px;
 $navicon-width              : 28px;
 $navicon-height             : 4px;
