@@ -21,11 +21,11 @@
 
     {% if page.terms %}
       {% for term in page.terms %}
-        <h3 class="archive__item-term">
+        <h3 class="archive__item-excerpt">
           {{ term.name }}
         </h3>
 
-        <ul class="archive__item-courses">
+        <ul class="archive__item-excerpt">
           {% for course in term.courses %}
             <li>
               {% if course.link %}
