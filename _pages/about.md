@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Mathematics PhD Student at the London School of Economics and Political Science, researching Combinatorics.
+I am a Mathematics PhD Student from Ireland, currently researching Combinatorics at the London School of Economics and Political Science.
 
 My LSE page can be found <a href="https://www.lse.ac.uk/people/brian-hearn">here</a>.
 
