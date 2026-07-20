@@ -13,13 +13,11 @@ paperurl: 'https://arxiv.org/abs/2504.19783'
 # paperurl: 'https://academicpages.github.io/files/paper1.pdf'
 # bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
-authors:
+coauthors:
   - name: Gaétan Berthe
     url: https://gberthe.fr/
   - name: Caroline Brosse
     url: https://www-sop.inria.fr/members/Caroline.Brosse/index-en.html
-  - name: Brian Hearn
-    url: https://brian-hearn.github.io/
   - name: Jan van den Heuvel
     url: https://www.lse.ac.uk/people/jan-van-den-heuvel
   - name: Pierre Hoppenot
