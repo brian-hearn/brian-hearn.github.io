@@ -33,6 +33,7 @@ for file in g:
         continue
 
     title = str(data['title']).strip()
+    subtitle = str(data.get('subtitle', '')).strip()
     location = str(data['location']).strip()
 
     # Format the date as e.g. "13 December 2024"
@@ -42,8 +43,8 @@ for file in g:
     else:
         talk_date = str(raw_date).strip()
 
-    # Marker popup text: title, location (city & country), date
-    label = f"{title}<br />{location}<br />{talk_date}"
+    # Marker popup text
+    label = f"<b>{subtitle}</b><br />{title}<br />{location}<br />{talk_date}"
 
     # Geocode and append ONE entry per talk
     try:
