@@ -12,5 +12,18 @@
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
+<!-- Fix for white flash in dark mode -->
+<script>
+  (function () {
+    try {
+      var s = localStorage.getItem("theme");
+      if (s !== "dark" && s !== "light" && s !== "system") s = "system";
+      var dark = s === "dark" ||
+                 (s === "system" && window.matchMedia("(prefers-color-scheme: dark)").matches);
+      if (dark) document.documentElement.setAttribute("data-theme", "dark");
+    } catch (e) {}
+  })();
+</script>
+
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">

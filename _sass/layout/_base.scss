@@ -321,9 +321,11 @@ nav {
    ANIMATIONS
    ========================================================================== */
 
+  //  Change these two starting opacities to 0 to fade-in
+  
    @-webkit-keyframes intro {
     0% {
-      opacity: 0;
+      opacity: 1;
     }
     100% {
       opacity: 1;
@@ -332,7 +334,7 @@ nav {
   
   @keyframes intro {
     0% {
-      opacity: 0;
+      opacity: 1;
     }
     100% {
       opacity: 1;

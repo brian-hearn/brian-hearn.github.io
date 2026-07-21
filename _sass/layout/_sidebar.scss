@@ -154,7 +154,13 @@
   }
 
   img {
+    // max-width: 175px;
     max-width: 175px;
+    // Remove next 2 lines to revert to dynamic profile picture sizing
+    aspect-ratio: 5 / 7;      /* reserve a square box before load */
+    object-fit: cover;        /* crop any photo to fill it, no distortion */
+    // Remove line to display alt-text if photo does not load
+    color: transparent;      /* hide the alt text that flashes before the image loads */
     border-radius: 50%;
 
     @include breakpoint($large) {
